@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+}
+
+.div-container{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+}
+
+.div-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 30px rgba(34, 34, 34, 0.664);
+    /*border-bottom: 2px solid rgba(114, 114, 114, 0.308);*/
+    
+}
+
+.div-logo{
+    font-family: 'Oswald', sans-serif;
+    padding: 0.4em 1em;
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-logo:hover{
+    color: #11c727;
+}
+
+.div-menu{
+    
+    /*border-bottom: 2px solid rgba(114, 114, 114, 0.308);*/
+    width: 41em;
+    height: 3em;
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.div-menu h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+    
+}
+
+.div-menu h1:hover{
+    color: #11c727;
+}
+
+.p-inicio:hover{
+    border-top: 3px solid #11c727;
+    border-bottom: 3px solid #11c727;
+}
+
+.p-gamer:hover{
+    border-top: 3px solid #11c727;
+    border-bottom: 3px solid #11c727;
+}
+
+.p-sociais:hover{
+    border-top: 3px solid #11c727;
+    border-bottom: 3px solid #11c727;
+}
+
+.p-profissionais:hover{
+    border-top: 3px solid #11c727;
+    border-bottom: 3px solid #11c727;
+}
+
+.arte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7em;
+    
+}
+.arte h1{
+    font-family: 'Lexend', sans-serif;
+    color: rgba(43, 43, 43, 0.918);
+    font-size: 35px;
+    
+}
+.arte h2{
+    font-family: 'Lexend', sans-serif;
+    color: rgba(95, 94, 94, 0.918);
+    font-size: 29px;
+}
+.section-cards{
+    margin-top: 30px;
+    height: 50vh;
+    
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-up{
+    z-index:1;
+}
+.cards{
+    box-shadow: 0px 10px 100px 0 rgb(77 77 119 / 10%);
+    border-radius: 20px;
+    padding: 15em 10em;
+    margin: 1em;
+
+}
+.cards:hover{
+    box-shadow: 0px 10px 100px 0px rgb(77 77 119 / 20%);
+    border-radius: 20px;
+    padding: 17em 12em ;
+    margin: -15px;
+    transition: all ease-in-out 0.2s;
+}
+@media screen  and (min-width: 300px) and (max-width: 700px) {
+    .div-nav{
+        justify-content: center;
+    }
+    .secion-planos{
+        justify-content: center;
+    }
+}
+
